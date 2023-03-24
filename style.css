@@ -1,0 +1,778 @@
+.top-des{
+    text-align:left;
+    margin-top: 50px;
+    width: 350px;
+}
+#ab{
+    color: #DF2E38;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.port{
+    height: 50px;
+    width: 80px;
+    object-fit: cover;
+}
+.pro{
+    font-family: 'Sacramento',cursive;
+}
+.but{
+    height: 50px;
+    width: 120px;
+    background-color: #2C3333;
+    color: #fff;
+    border-radius: 10px;
+}
+.but:hover{
+    background-color: black;
+}
+.btn{
+    margin-left: -10px;
+}
+
+.profile{
+    height: 200px;
+    object-fit: contain;
+    width: 200px;
+    border-radius: 50%;
+}
+.about-title {
+  --b: 0.1em;   /* the thickness of the line */
+  --c: #DF2E38; /* the color */
+  
+  color: #0000;
+  padding-block: var(--b);
+  background: 
+    linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+  margin-right: 300px;
+  text-align: center;
+  margin-left: -100px;
+  font-family: "Montserrat",sans-serif;
+  height: 100px;
+}
+.about-title:hover {
+  --_p: 100%;
+  height: 50px;
+  --_s: .3s;
+}
+
+.about{
+    padding-top: 5%;
+    height: 100px;
+    width: 30%;
+    margin-left: 400px;
+    color: black;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.about-p1{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 2;
+    height: 180px;
+}
+.about-p2{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 2;
+    height: 180px;
+}
+.about-para{
+    padding: 0%;
+    margin-top: 0%;
+    width: 450px;
+    height: 300px;
+    width: 600px;
+}
+.about-box{
+    height: 480px;
+    background-color: #FFF1DC;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skill-title {
+  color: #000;
+  position: relative;
+  text-decoration: none;
+  width: 140px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.skill-title::before {
+  background: #62CDFF;
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+  z-index: -1;
+}
+
+.skill-title:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.skill-row-1{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.skill-row-2{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  margin-top: 0%;
+  margin-bottom: 50px;
+}
+.code-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.chilli-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.contact-input{
+    background-color: #e9ecef;
+    width: 100%;
+    margin-top: 20px;
+    height: 430px;
+}
+.contact-details{
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+.contact-tiltle{
+    padding-bottom: 80px;
+    width: 130;
+}
+.submit{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.name-in{
+    height: 39px;
+    width: 450px;
+    box-shadow: 0 0 5px var(--grey);
+    border-radius: 10px;
+    margin-top: 3px;
+}
+.email-in{
+    height: 39px;
+    width: 450px;
+    box-shadow: 0 0 5px var(--grey);
+    border-radius: 10px;
+    margin-top: 3px;
+}
+.name{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    margin-right: 400px;
+}
+.email{
+    padding-top: 15px;
+    margin-bottom: 5px;
+    margin-right: 350px;
+}
+.message{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-right: 380px;
+}
+.message-in{
+    height: 39px;
+    width: 450px;
+    box-shadow: 0 0 5px var(--grey);
+    border-radius: 10px;
+    margin-top: 3px;
+}
+.but{
+    height: 40px;
+    width: 150px;
+}
+.con{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 50px;
+}
+.footer{
+    width: 100%;
+    height: 100%px;
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.link{
+    height: 30px;
+    width: 30px;
+}
+.footer-link{
+    text-decoration: none;
+    color: #3C4048;
+    font-family: 'Montserrat',sans-serif;
+    padding-left: 600px;
+}
+.footer-link:hover{
+    color: #fff;
+}
+.pro:hover{
+    color: #11468F;
+}
+.icons{
+    padding-top: 80px;
+    margin-right: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.para-c{
+    margin-bottom: 30px;
+    margin-right: 500px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.copyright{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.75rem;
+    font-family: 'Montserrat',sans-serif;
+    padding-top: 20px;
+    padding-left: 550px;
+}
+.web{
+    text-align: center;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+.progress-flow{
+    display: flex;
+    margin-right: 200px;
+    padding-top: 50px;
+}
+.Progress-bar-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+.Progress-bar-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 50px;
+}
+.p-1{
+    margin-left: 300px;
+    margin-right: 100px;
+    box-shadow: 2px 2px 2px 2px rgb(204, 200, 200);
+    border-radius: 10px;
+}
+.p-2{
+    margin-left: 200px;
+    margin-top: 30px;
+    box-shadow: 0 0 2px -1px;
+    box-shadow: 2px 2px 2px 2px rgb(204, 200, 200);
+    border-radius: 10px;
+}
+.p-3{
+    margin-left: 200px;
+    margin-top: 30px;
+    box-shadow: 0 0 2px -1px;
+    box-shadow: 2px 2px 2px 2px rgb(204, 200, 200);
+    border-radius: 10px;
+}
+.progress{
+    width: 400px;
+}
+.portfolio{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 50px;
+    background-color: bisque;
+    margin-top: 50px;
+}
+.porto{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.porto-h{
+  border: 8px solid;
+  border-image: repeating-linear-gradient(135deg,#F8CA00 0 10px,#E97F02 0 20px,#BD1550 0 30px) 8;
+  -webkit-mask: 
+    conic-gradient(from 180deg at top 8px right 8px, #0000 90deg,#000 0)
+     var(--_i,200%) 0  /200% var(--_i,8px) border-box no-repeat,
+    conic-gradient(at bottom 8px left  8px,  #0000 90deg,#000 0)
+     0   var(--_i,200%)/var(--_i,8px) 200% border-box no-repeat,
+    linear-gradient(#000 0 0) padding-box no-repeat;
+  transition: .3s, -webkit-mask-position .3s .3s;
+  width: 200px;
+}
+.porto-h:hover {
+  --_i: 100%;
+  color: #CC333F;
+  transition: .3s, -webkit-mask-size .3s .3s;
+}
+.port-para{
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.port-p{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 3;
+}
+.project{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    box-shadow: 3px 3px 3px 3px #62CDFF;
+    border-radius: 10px;
+    
+}
+.google-para{
+    width: 400px;
+    line-height: 3;
+    text-align: center;
+}
+.dupe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.dupe-google{
+    text-align: center;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+input::placeholder{
+   padding-left: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .top{
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+    }
+    .img-1{
+        margin-right: 200px;
+        margin-bottom: 200px;
+    }
+    .top-des{
+        padding-top: 150px;
+        margin-bottom: 50px;
+    }
+    .profile{
+        height: 250px;
+        width: 250px;
+    }
+    .top-h2{
+        font-size: 40px;
+    }
+    .top-h1{
+        font-size: 40px;
+    }
+    .top-h3{
+        font-size: 40px;
+    }
+    #top-btn{
+        height: 50px;
+        width: 160px;
+    }
+    .about{
+        margin-bottom: 20px;
+        width: 0%;
+    }
+    .about-box{
+        width: 100%;
+        height: 630px;
+        padding-bottom: 160px;
+    }
+    .about-title{
+        font-size: 30px;
+        height: 40px;
+    }
+    .about-para{
+        width: 100%;
+    }
+    .about-p1{
+        line-height: 2.3;
+        font-size: 18px;
+        margin-bottom: 70px;
+    }
+    .about-p2{
+        line-height: 2.3;
+        font-size: 18px;
+    }
+    .skill-title{
+        font-size: 31px;
+    }
+    .skill-row-1{
+        width: 100%;
+    }
+    .skill-row-2{
+        width: 100%;
+    }
+    .progress-flow{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 0%;
+    }
+    .Progress-bar-1{
+        width: 200px;
+        padding-left: 200px;
+        padding-bottom: 100px;
+        height: 360px;
+        margin-top: 30px;
+    }
+    .Progress-bar-2{
+        padding-left: 100px;
+    }
+    .web{
+        width: 400px;
+        font-size: 28px;
+    }
+    .p-1{
+        width: 350px;
+    }
+    .p-2{
+        width: 350px;
+    }
+    .p-3{
+        width: 350px;
+    }
+    #flow-1{
+        width: 343px;
+    }
+    #flow-2{
+        width: 339px;
+    }
+    #flow-3{
+        width: 330px;
+    }
+    .portfolio{
+        margin-top: 120px;
+        height: 635px;
+    }
+    .porto{
+        height: 50px;
+        padding-top: 200px;
+    }
+    .porto-h{
+        font-size: 40px;
+        margin-bottom: 200px;
+    }
+    .port-para{
+        font-size: 23px;
+        margin-bottom: 200px;
+    }
+    .projects{
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+    .project{
+        margin-right: 50px;
+    }
+    .google-para{
+        width: 310px;
+    }
+    .footer{
+        height: 127px;
+    }
+}
+@media screen and (max-width: 412px){
+    .top{
+        display: flex;
+        flex-direction: column;
+        height: 620px;
+        padding-left: 45px;
+    }
+    .top-h2{
+        font-size: 40px;
+    }
+    .top-h1{
+        font-size: 40px;
+    }
+    .top-h3{
+        font-size: 40px;
+    }
+    .img-1{
+        padding-left: 70px;
+    }
+    .about-box{
+        margin-top: 30px;
+        padding-top: 50px;
+    }
+    .about{
+        width: 0px;
+        margin-left: 390px;
+    }
+    .about-p1{
+        font-size: 15px;
+    }
+    .about-p2{
+        font-size: 15px;
+    }
+    .skill-box{
+        width: 100%;
+    }
+    .robo{
+        width: 100%;
+    }
+    .chilli-img{
+        margin-right: 100px;
+        margin-right: 105px;
+    }
+    .chilli{
+        width: 100%;
+    }
+    .skill-row-1{
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .skill-row-2{
+        width: 100%;
+    }
+    .web{
+        padding-left: 0%;
+        width: 386px;
+    }
+    .p-1{
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .p-2{
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .p-3{
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    #web{
+        padding-left: 0%;
+        width: 386px;
+        padding-left: 100px;
+    }
+    #p-1{
+        margin-left: 110px;
+        margin-right: 0px;
+    }
+    #p-2{
+        margin-left: 110px;
+        margin-right: 0px;
+    }
+    #p-3{
+        margin-left: 110px;
+        margin-right: 0px;
+    }
+    .portfolio{
+        height: 615px;
+    }
+    .port-p{
+        width: 90%;
+    }
+    .projects{
+        width: 0px;
+        margin-left: 200px;
+    }
+    .google-para{
+        width: 380px;
+    }
+    .name-in{
+        width: 350px;
+        margin-right: 30px;
+    }
+    .name{
+        margin-right: 330px;
+    }
+    .email-in{
+        width: 350px;
+        margin-right: 30px;
+    }
+    .email{
+        width: 105px;
+        margin-right: 270px;
+    }
+    .message-in{
+        width: 350px;
+        margin-right: 30px;
+    }
+    .message{
+        margin-right: 310px;
+    }
+}
+@media screen and (max-width: 360px){
+    .top-des{
+        width: 100%;
+        font-size: 30px;
+    }
+    .about{
+        width: 0px;
+        margin-left: 360px;
+    }
+    .web{
+        width: 240px;
+
+    }
+    .p-1{
+        width: 290px;
+    }
+    .p-2{
+        width: 290px;
+    }
+    .p-3{
+        width: 290px;
+    }
+    #flow-1{
+        width: 283px;
+    }
+    #flow-2{
+        width: 280px;
+    }
+    #flow-3{
+        width: 270px;
+    }
+    #p-1{
+        margin-left: 140px;
+        margin-right: 0px;
+    }
+    #p-2{
+        margin-left: 140px;
+        margin-right: 0px;
+    }
+    #p-3{
+        margin-left: 140px;
+        margin-right: 0px;
+    }
+    .Progress-bar-1{
+        padding-left: 170px;
+    }
+    .Progress-bar-2{
+        padding-left: 70px;
+    }
+    .porto-h{
+        font-size: 35px;
+    }
+    .port-para{
+        font-size: 20px;
+        width: 360px;
+    }
+    .port-p{
+        width: 360px;
+    }
+    .portfolio{
+        height: 745px;
+    }
+    .projects{
+        padding-bottom: 156px;
+    }
+    .project{
+        margin-right: 40px;
+        width: 350px;
+        height: 300px;
+    }
+    .google-para{
+        width: 360px;
+    }
+    .name-in{
+        width: 335px;
+        margin-right: 40px;
+    }
+    .email-in{
+        width: 335px;
+        margin-right: 40px;
+    }
+    .message-in{
+        width: 335px;
+        margin-right: 40px;
+    }
+}
+@media screen and (max-width: 360px){
+    .about{
+        width: 20%;
+    }
+}
+
